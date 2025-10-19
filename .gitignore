@@ -1,0 +1,65 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment variables (keep .env.example)
+.env
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+.hypothesis/
+
+# Qdrant local storage
+qdrant_storage/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Credentials and keys
+*.pem
+*.key
+*.crt
+*.p12
+*-key.json
+credentials/
+secrets/
+
+# OS files
+Thumbs.db
